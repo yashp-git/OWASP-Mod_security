@@ -1,0 +1,700 @@
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display:block;
+
+}
+mark, rp, rt, ruby, summary, time {
+	display:inline;
+}
+body {
+	background:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:1em;
+	color:#454545;
+	width:auto;
+}
+html {
+	min-width:940px;
+}
+html, body {
+	height:100%;
+}
+.container{
+	margin:0px auto;
+	left: auto;
+	width:1000px;
+	height:200px;
+	overflow:hidden;
+	font-size:.875em;
+	padding-bottom:176px;
+}
+header {
+	//background:url(../images/header-bg.jpg) no-repeat center top;
+	min-width:940px;
+}
+header .container {
+	height:100px;
+	position:relative;
+	padding:0;
+	
+}
+section#content {
+	//left:500px;
+	float:left;
+	width:691px;
+	height:auto;
+	//margin:70px;
+}
+aside {
+	width:200px;
+	float:left;
+	margin-left:0px;
+	margin-right:30px;
+	padding:5px 0 0 0;
+}
+.fleft {
+	float:left;
+}
+.fright {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.col-1, .col-2, .col-3 {
+	float:left;
+}
+.alignright {
+	text-align:right;
+}
+.aligncenter {
+	text-align:center;
+}
+.wrapper {
+	width:100%;
+	overflow:hidden;
+}
+.wrap {
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	min-width:940px;
+}
+input, select, textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+}
+fieldset {
+	border:0;
+}
+.categories {
+	padding-bottom:37px;
+	margin-top:100px;
+	margin-left:0px;
+}
+.categories li {
+	font-weight:bold;
+	font-size:.900em;
+	padding-bottom:15px;
+	margin-bottom:10px;
+	
+}
+.categories li.last {
+	background:none;
+	padding:0;
+	margin:0;
+}
+.categories li span {
+	display:block;
+	padding-left:5px;
+	height:2%;
+	
+}
+.categories li a {
+	text-decoration:none;
+	color:#008cc4;
+}
+.categories li a:hover {
+	color:#ff7b01;
+}
+.news {
+	margin-top:-25px;
+}
+.news li {
+	padding-top:25px;
+	line-height:1.429em;
+}
+.news li strong {
+	font-size:.857em;
+	color:#454545;
+	display:block;
+	padding-bottom:3px;
+}
+.news li a {
+	color:#008cc4;
+	text-decoration:none;
+	font-weight:bold;
+}
+.articles {
+	margin-top:-18px;
+}
+.articles li {
+	width:100%;
+	overflow:hidden;
+	vertical-align:top;
+	line-height:1.429em;
+	padding-top:18px;
+}
+.articles li img {
+	float:left;
+	margin-right:22px;
+}
+.sitemap {
+	padding-bottom:15px;
+}
+.sitemap li {
+	padding:0 0 5px 16px;
+	background:url(../images/marker1.gif) no-repeat left 5px;
+}
+.sitemap li ul {
+	padding-top:5px;
+	margin-bottom:-5px;
+}
+.list {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:40px;
+	
+}
+.list li {
+	float:left;
+	width:175px;
+	margin-right:53px;
+}
+.list li.last {
+	margin:0;
+}
+.list li span {
+	display:block;
+	text-align:center;
+}
+.list li h4 {
+	padding-top:20px;
+}
+.list li p {
+	margin:0;
+}
+.list td{
+	padding-bottom:7px;
+}
+
+.list1 {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:40px;
+	padding-left:150px;
+}
+.list1 li {
+	float:left;
+	width:175px;
+	margin-right:53px;
+}
+.list1 li.last {
+	margin:0;
+}
+.list1 li span {
+	display:block;
+	text-align:center;
+}
+.list1 li h4 {
+	padding-top:20px;
+}
+.list1 li p {
+	margin:0;
+}
+
+
+.img-box {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:20px;
+	line-height:1.429em;
+}
+.img-box img {
+	float:left;
+	margin:0 20px 0 0;
+}
+.extra-wrap {
+	overflow:hidden;
+}
+p {
+	margin-bottom:16px;
+	line-height:1.429em;
+}
+.p0 {
+	margin:0;
+}
+.address {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:40px;
+}
+.address address {
+	font-style:normal;
+	line-height:1.429em;
+	float:left;
+	width:248px;
+}
+.address address strong {
+	color:#008cc4;
+	width:94px !important;
+	width:91px;
+	float:left;
+}
+.address .extra-wrap {
+	float:left;
+	width:385px;
+}
+.address p {
+	margin:0;
+}
+#banner {
+	//width:691px;
+	//height:299px;
+        width:700px;
+	height:300px;
+	
+	background:url(../images/banner-bg.jpg) no-repeat left top;
+}
+#banner h2 {
+	color:#000;
+	font-size:45px;
+	text-transform:none;
+	line-height:1.2em;
+	padding:75px 0 0 55px;
+	margin:0;
+}
+#banner h2 span {
+	display:block;
+	margin-top:-12px;
+	color:#000;
+}
+#banner h2 span span {
+	font-size:30px;
+	margin-top:-8px;
+}
+a {
+	color:#ff7b01;
+	outline:none;
+}
+a:hover {
+	text-decoration:none;
+}
+h1 {
+	text-indent:-9999px;
+}
+h1 a {
+	width:473px;
+	height:150px;
+	position:absolute;
+	left:350px;
+	top:90px;
+	background:url(../images/logo.png) no-repeat left top;
+}
+h2 {
+	font-size:24px;
+	line-height:1.2em;
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+h2 span {
+	color:#8d8d8d;
+}
+h3 {
+	font-size:20px;
+	line-height:1.2em;
+	text-transform:uppercase;
+	margin-bottom:15px;
+}
+h4 {
+	font-size:1em;
+	color:#008cc4;
+	margin-bottom:5px;
+}
+h4 a {
+	color:#008cc4;
+	text-decoration:none;
+}
+h4 a:hover {
+	color:#ff7b01;
+}
+.txt1 {
+	color:#008cc4;
+	font-weight:bold;
+}
+.link {
+	position:absolute;
+	right:0;
+	top:159px;
+}
+header .nav-bg {
+	background:no-repeat center top;
+}
+header nav {
+	position:absolute;
+	top:3px;
+	float:right;
+  text-align: right;
+  display: inline;
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+header nav ul li {
+ display: inline-block;
+   margin-right: 4px;
+  position: relative;
+  cursor: pointer;
+ 
+
+	margin:auto;
+	float:left;
+	font-size:20px;
+	line-height:1.2em;
+	text-transform:uppercase;
+	/*background:url(../images/divider.gif) repeat-y right top;*/
+}
+header nav ul li.last {
+	background:none;
+	padding:0;
+}
+header nav ul li a {
+	color:#454545;
+	text-decoration:none;
+	display:block;
+	float:left;
+	text-align:center;
+	padding:18px 0 20px 0;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+header nav ul li.current a, header nav ul li a:hover {
+	color:#008cc4;
+}
+header nav ul li a.m1 {
+	width:160px;
+}
+header nav ul li.current a.m1 {
+	background-image:url(../images/m1-act.jpg);
+}
+header nav ul li a.m2 {
+	width:160px;
+}
+header nav ul li.current a.m2 {
+	background-image:url(../images/m2-act.jpg);
+}
+header nav ul li a.m3 {
+	width:160px;
+}
+header nav ul li.current a.m3 {
+	background-image:url(../images/m3-act.jpg);
+}
+header nav ul li a.m4 {
+	width:160px;
+}
+header nav ul li.current a.m4 {
+ background-image:url(../images/m4-act.jpg);
+}
+header nav ul li.last {
+	background:none;
+	padding:0;
+}
+header nav ul li a.m5 {
+	width:160px;
+}
+header nav ul li.current a.m5 {
+	background-image:url(../images/m5-act.jpg);
+}
+ul li ul {
+  padding: 10;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 150px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+ul li ul li { 
+display: block;
+padding:8px;  
+}
+ul li:hover ul {
+  display: block;
+  padding:10;
+  opacity: 1;
+  visibility: visible;
+  
+  
+}
+
+#content .inside {
+	padding:10px 10px 10px 10px;
+	float:left;
+	height:auto;
+	margin:50px 100px 50px 100px;
+	}
+#content .inner_copy, #content .inner_copy a {
+	border:5;
+	float:right;
+	background:#000;
+	color:#ff7b01;
+	width:100%;
+	line-height:10px;
+	font-size:10px;
+	margin:-50% 0 0 0;
+	padding:0;
+}
+#newsletter-form {
+	padding-bottom:45px;
+}
+#newsletter-form fieldset {
+	background:url(../images/newsletter-bg.gif) no-repeat left top;
+	width:219px;
+	height:156px;
+	overflow:hidden;
+}
+#newsletter-form .rowElem {
+	padding:13px 19px 0 17px;
+}
+#newsletter-form input {
+	border:1px solid #0086b5;
+	background:#fff;
+	color:#8e8e8e;
+	font-size:.857em;
+	padding:2px 5px 2px 5px;
+	width:171px;
+	margin-bottom:13px;
+}
+#newsletter-form h2 {
+	color:#fff;
+	margin-bottom:13px;
+}
+#newsletter-form a.fleft {
+	color:#fff;
+	position:relative;
+	top:3px;
+}
+#newsletter-form a.fright {
+	display:block;
+	color:#fff;
+	border:1px solid #26b6e8;
+	text-decoration:none;
+	background-color:#006caa;
+	padding:2px 11px 3px 11px;
+}
+#newsletter-form a.fright:hover {
+	border-color:#fff;
+}
+#contacts-form {
+	clear:right;
+	width:100%;
+	overflow:hidden;
+}
+#contacts-form fieldset {
+	border:none;
+	float:left;
+}
+#contacts-form .field {
+	clear:both;
+	height:30px;
+}
+#contacts-form .field.extra {
+	height:268px;
+}
+#contacts-form label {
+	float:left;
+	width:123px;
+	font-weight:bold;
+	color:#008cc4;
+}
+#contacts-form input {
+	width:277px;
+	padding:2px 0 2px 3px;
+	border:1px solid #d1d1d1;
+	color:#70635b;
+}
+#contacts-form textarea {
+	width:503px;
+	height:252px;
+	padding:2px 0 2px 3px;
+	border:1px solid #d1d1d1;
+	color:#70635b;
+	overflow:auto;
+}
+footer {
+	background:url(../images/footer-bg.png) no-repeat center top;
+	margin-top:-110px;
+	min-width:940px;
+}
+footer .footerlink {
+	margin:0 auto;
+	width:940px;
+	height:60px;
+	padding-top:60px;
+	color:#00000;
+	font-size:.785em;
+	line-height:1.429em;
+}
+.footerlink p {
+	margin:0;
+	padding:0;
+	line-height:normal;
+	white-space:nowrap;
+	text-indent:inherit;
+	color:#454545;
+}
+.footerlink a {
+	color:#454545;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:underline;
+	background-color:transparent;
+}
+.footerlink a:hover {
+	color:#454545;
+	background-color:transparent;
+	text-decoration:none;
+}
+.footerlink .lf {
+	text-align:center;
+}
+.footerlink .rf {
+	float:right;
+}
+a {
+	outline:none;
+}
+
+
+
+
+
+
+
+/* $Id: example.css,v 1.5 2006/03/27 02:44:36 pat Exp $ */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+ 
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ 
+ margin:100px 20px 10px -150px;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+
