@@ -1,0 +1,113 @@
+CustomerID,AlertID,FoundDate,Description,URL,Method,Para,ReqHeader,Replay_TIME,HTTP_RESPONSE_CODE,RawLog,Rule,Unique_ID
+2176,8371215,"2015-04-01 16:12:33","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/bin/,get,,"GET /bin HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371216,"2015-04-01 16:13:39","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/admin/,get,,"GET /admin HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371217,"2015-04-01 16:42:29","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/downloads/,get,,"GET /downloads HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371218,"2015-04-01 16:42:31","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/forms/,get,,"GET /forms HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371219,"2015-04-01 16:42:33","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/images/,get,,"GET /images HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371220,"2015-04-01 16:42:55","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/scripts/,get,,"GET /scripts HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371221,"2015-04-01 16:43:00","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Scripts/,get,,"GET /Scripts HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371222,"2015-04-01 16:43:02","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Styles/,get,,"GET /Styles HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371223,"2015-04-01 16:43:04","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Images/,get,,"GET /Images HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371224,"2015-04-01 16:43:06","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Images/Header/,get,,"GET /Images/Header HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371225,"2015-04-01 16:43:08","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Images/Rupee/,get,,"GET /Images/Rupee HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371230,"2015-04-01 17:32:18","<p>Rather than an actual vulnerability, this attack is informational, indicating that access to some resource is not granted. The resource is predictable and although it is not accessible via any URL links in the web application, probing using intelligent brute force methods or commonly used resource names indicates presence of the resource.</p>",http://www.edelweisspartners.com/Mutual%20Fund%20Info/,get,,"GET /Mutual Fund Info HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:10",404,,0,
+2176,8371234,"2015-04-01 18:18:43","<p>Web applications that do not properly sanitize user input before passing it to a database system are vulnerable to SQL injection.  This type of attack potentially allows a malicious user to recover and/or modify any data that the application has access to.</p>",http://www.edelweisspartners.com/NFODetails.aspx?PID=29998,get,PID,"GET /NFODetails.aspx?PID=';`-- HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:11",406,"[Thu Apr 02 09:18:10 2015] [error] [client 54.173.252.77] ModSecurity: Access denied with code 406 (phase 2). Pattern match ""(';--$|--$|`--|'--|'`--$|(w*)*(;--))"" at REQUEST_URI. [file ""/etc/apache2/sites-enabled/000-default-indusind-base.conf""] [line ""529""] [id ""310""] [msg ""SQL Injection Attack""] [data ""/nfodetails.aspx?pid=%27%3b%60--""] [severity ""CRITICAL""] [tag ""WEB_ATTACK/SQL_INJECTION""] [hostname ""54.173.252.77""] [uri ""/NFODetails.aspx""] [unique_id ""VRy7@qwQAW0AAFBL2zYAAAAJ""]",310,VRy7@qwQAW0AAFBL2zYAAAAJ
+2176,8371236,"2015-04-01 18:37:29","<p>Web applications that do not properly sanitize user input before passing it to a database system are vulnerable to SQL injection.  This type of attack potentially allows a malicious user to recover and/or modify any data that the application has access to.</p>",http://www.edelweisspartners.com/ipopreviousdetails.aspx?ID=65827,get,ID,"GET /ipopreviousdetails.aspx?ID=';`-- HTTP/1.1
+Referer: http://www.edelweisspartners.com/
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+Host: www.edelweisspartners.com
+Connection: Close
+
+","2015-04-02 09:18:12",406,"[Thu Apr 02 09:18:11 2015] [error] [client 54.173.252.77] ModSecurity: Access denied with code 406 (phase 2). Pattern match ""(';--$|--$|`--|'--|'`--$|(w*)*(;--))"" at REQUEST_URI. [file ""/etc/apache2/sites-enabled/000-default-indusind-base.conf""] [line ""529""] [id ""310""] [msg ""SQL Injection Attack""] [data ""/ipopreviousdetails.aspx?id=%27%3b%60--""] [severity ""CRITICAL""] [tag ""WEB_ATTACK/SQL_INJECTION""] [hostname ""54.173.252.77""] [uri ""/ipopreviousdetails.aspx""] [unique_id ""VRy7@6wQAW0AAFBKrvEAAAAI""]",310,VRy7@6wQAW0AAFBKrvEAAAAI

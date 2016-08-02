@@ -1,0 +1,224 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Sriram</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>srirmam</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >CustomerID</td><td class=xl24 width=64 >AlertID</td><td class=xl24 width=64 >FoundDate</td><td class=xl24 width=64 >Description</td><td class=xl24 width=64 >URL</td><td class=xl24 width=64 >Method</td><td class=xl24 width=64 >Para</td><td class=xl24 width=64 >ReqHeader</td><td class=xl24 width=64 >Replay_TIME</td><td class=xl24 width=64 >HTTP_RESPONSE_CODE</td><td class=xl24 width=64 >RawLog</td><td class=xl24 width=64 >Rule</td><td class=xl24 width=64 >Unique_ID</td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8374139</td><td class=xl24 width=64 >2015-04-02 00:19:47</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-04-03 09:15:53</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8357093</td><td class=xl24 width=64 >2015-03-31 00:20:10</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-04-01 09:16:26</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8348179</td><td class=xl24 width=64 >2015-03-30 00:19:29</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-31 09:16:04</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8339612</td><td class=xl24 width=64 >2015-03-29 00:19:18</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-30 09:16:21</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8330811</td><td class=xl24 width=64 >2015-03-28 00:20:01</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-29 09:15:54</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8322001</td><td class=xl24 width=64 >2015-03-27 00:21:30</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-28 09:15:37</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8312860</td><td class=xl24 width=64 >2015-03-26 00:22:24</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-27 09:15:47</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8304465</td><td class=xl24 width=64 >2015-03-25 00:20:34</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-26 09:15:55</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8295667</td><td class=xl24 width=64 >2015-03-24 00:20:57</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-25 09:15:57</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8285701</td><td class=xl24 width=64 >2015-03-23 00:22:25</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-24 09:15:50</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8275346</td><td class=xl24 width=64 >2015-03-22 00:20:16</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-23 09:15:48</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8264712</td><td class=xl24 width=64 >2015-03-21 00:20:29</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-22 09:15:56</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8254242</td><td class=xl24 width=64 >2015-03-20 00:21:42</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-21 09:15:58</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8243140</td><td class=xl24 width=64 >2015-03-19 00:21:27</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-20 09:16:05</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >466</td><td class=xl24 width=64 >8232370</td><td class=xl24 width=64 >2015-03-18 00:20:37</td><td class=xl24 width=64 >&lt;p&gt;The HTTP TRACE method is normally used to return the full HTTP request back to the requesting client for proxy-debugging purposes.  An attacker can create a webpage using XMLHTTP, ActiveX, or XMLDOM to cause a client to issue a TRACE request and capture the client&amp;#39;s cookies.  This effectively results in a Cross-Site Scripting attack.&lt;/p&gt;</td><td class=xl24 width=64 >https://collections.hdfcbank.com</td><td class=xl24 width=64 >TRACE</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >TRACE / HTTP/1.1
+Referer: https://collections.hdfcbank.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+Accept: */*
+TraceEnable: yes
+Host: collections.hdfcbank.com
+Connection: Close
+
+</td><td class=xl24 width=64 >2015-03-19 09:15:35</td><td class=xl24 width=64 >405</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >0</td><td class=xl24 width=64 ></td>
