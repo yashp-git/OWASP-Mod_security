@@ -1,0 +1,4 @@
+SELECT * FROM database where Uid = '123' AND Pwd = 'abc'
+
+
+SELECT * FROM database where Uid = '123' AND Pwd = '	'OR'1'='1	'

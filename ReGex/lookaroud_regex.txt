@@ -1,0 +1,33 @@
+q(?!u)  negative lookahead
+q(?!u)  positive lookahead
+(?<=a)b positive lookbehind
+(?<!a)b negitive lookbehind
+
+
+(?!) -  negative lookahead
+(?=) -  positive lookahead
+(?<=) - positive lookbehind
+(?<!) - negative lookbehind
+
+
+(?>A+) is equivalent to A++
+(?>A*) is equivalent to A*+
+(?>A?) is equivalent to A?+
+(?>A{…,…}) is equivalent to A{…,…}+
+
+
+Look ahead Positive(?=)
+Find expression A where expression B follows
+A(?=B)
+
+Look ahead Negative(?!)
+Find expression A where expression B does not follow
+A(?!B)
+
+Look behind Positive(?<=)
+Find expression A where expression B precedes
+(?<=B)A
+
+Look behind Negative(?<!)
+Find expression A where expression B does not precedes it
+(?<!B)A

@@ -1,0 +1,13 @@
+http://test.com/defualt.asp?id=100 and 0<=(SELECT count(*) FROM [site]) and 1=1 -> WHITE PAGE -=> TABLE FOUND!
+http://test.com/defualt.aspid=100 and 0<=(SELECT count(*) FROM [notatable]) and 1=1 -> ERROR -=> TABLE NOT FOUND!
+
+
+
+((((((\s(AND)\s)([0-9]*)))(<=|>=|<|>|=|!=))((\(SELECT\s(count)(\(\*\)\s)FROM\s).*)))
+
+
+
+\s(AND)\s[0-9]*(<=|>=|<|>|=|!=)(\(SELECT\scount(\(\*\)\s)FROM\s).*
+
+
+SecRule REQUEST_URI "((((((\s(AND)\s)([0-9]*)))(<=|>=|<|>|=|!=))((\(SELECT\s(count)(\(\*\)\s)FROM\s).*)))" log,block,status:406

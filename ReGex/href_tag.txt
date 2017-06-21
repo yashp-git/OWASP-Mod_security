@@ -1,0 +1,26 @@
+<a href="http://www.safesite.com/myFirstName?first_name=<SCRIPT>alert(document.cookie)</SCRIPT>">This is a great site</a>
+<A HREF="http://66.102.7.147/">XSS</A>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<A HREF="http://1113982867/">XSS</A>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<A HREF="//www.google.com/">XSS</A>
+<A HREF="//google">XSS</A>
+<A HREF="http://ha.ckers.org@google">XSS</A>
+<A HREF="http://google:ha.ckers.org">XSS</A>
+<A HREF="http://google.com/">XSS</A>
+<A HREF="http://www.google.com./">XSS</A>
+<A HREF="javascript:document.location='http://www.google.com/'">XSS</A>
+
+
+
+\<a\s*href?=?.+.\>.*.\<\/a\>
+
+
+.*\<a href?=?.+.\>.*.\<\/a>
+
+
+\<(?<=a)h?=?.+.\>.*.\<\/a>
+
+
+(?i)(<a=?\s+href?=\"[A-z0-9\/\|\;\:\.\(\)\?\<\>\s\:\_\=\'\@\%]+\"=?>)

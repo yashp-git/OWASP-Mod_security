@@ -1,0 +1,10 @@
+Attack Examples for URL:
+
+1)	< > %3c and %3e (used in XSS)
+2)	: %3a (used in XSS with javascript: )
+3)	‘ %27 ,-- %2D%2D ,; %3B(  used in SQL injections)
+4)	../ %2E%2E%2F (used in directory transversal, file upload)
+5)	` %60 (used in command injections)
+6)	/0 (null) %00 (used in NULL strings)
+
+\Xdd

