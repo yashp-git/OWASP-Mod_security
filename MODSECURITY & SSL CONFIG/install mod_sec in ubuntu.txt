@@ -1,0 +1,55 @@
+https://www.thefanclub.co.za/how-to/how-install-apache2-modsecurity-and-modevasive-ubuntu-1204-lts-server
+
+
+Install Mod_Security in Ubuntu 12.04
+
+		sudo apt-get update
+		
+		sudo apt-get install lamp-server^
+		or
+		sudo apt-get install apache2
+		sudo apt-get install php
+		
+		
+		sudo service apache2 restart
+
+
+
+1 >>>>   sudo apt-get install libapache2-modsecurity
+
+
+
+			configure modsec.conf      in sites-enable
+
+			#############################
+			
+			<VirtualHost *:80>
+
+			ServerName www.indusface.com
+
+			<IfModule mod_security2.c>
+
+			SecRuleEngine On
+			SecResponseBodyAccess on
+			SecRequestBodyAccess On
+			SecResponseBodyMimeType text/plain text/html text/xml
+			ErrorLog "/etc/apache2/mod_sec_error.log"
+			CustomLog /etc/apache2/mod_sec_access.log combined
+			SecAuditEngine RelevantOnly
+			SecDebugLogLevel 0
+			SecDefaultAction "phase:2,deny,log,status:406"
+
+			ProxyPreserveHost On
+			ProxyRequests off
+			ProxyPass / http://demo.testfire.net/
+			ProxyPassReverse /  http://demo.testfire.net/
+			ServerSignature Off
+
+			</IfModule>
+			</VirtualHost>
+
+			
+			#############################
+
+
+2 >>>>	 service apache2 reload

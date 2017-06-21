@@ -1,0 +1,25 @@
+######################  SSL Configuration  ########################
+
+
+Manually     http://www.akadia.com/services/ssh_test_certificate.html
+
+https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+
+#################  https://www.digicert.com/ssl-certificate-installation-apache.htm   ##########################3
+
+sudo nano /etc/apache2/sites-available/default-ssl.conf
+
+
+
+<VirtualHost *:443>
+DocumentRoot /var/www/html2
+ServerName www.yourdomain.com
+SSLEngine on
+SSLCertificateFile /etc/apache2/server.crt
+SSLCertificateKeyFile /etc/apache2/server.key
+</VirtualHost> 
+
+
+
+
+

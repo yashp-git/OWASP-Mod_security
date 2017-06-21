@@ -1,0 +1,26 @@
+Install Mode_security in centOs 7
+
+
+
+systemctl stop systemctl stop firewalld
+systemctl disable firewalld
+
+
+yum update && yum install iptables-services
+systemctl enable iptables
+systemctl start iptables
+systemctl status iptables
+
+
+
+yum update && yum install mod_security mod_evasive
+
+
+ls -l /etc/httpd/conf.d
+
+httpd.conf->>>>
+LoadModule evasive20_module modules/mod_evasive24.so
+LoadModule security2_module modules/mod_security2.so
+
+service httpd restart
+systemctl restart httpd 
